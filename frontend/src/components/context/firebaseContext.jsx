@@ -35,26 +35,26 @@ import { getDatabase, set, ref as dhanish } from "firebase/database";
 const firebaseContext = createContext(null);
 
 // Madhvesh Firebase API
-// const firebaseConfig = {
-//   apiKey: "AIzaSyDbF8gyfgZYANqyWAB72QRireh8ma7GE3A",
-//   authDomain: "finportal-37d63.firebaseapp.com",
-//   databaseURL: "https://finportal-37d63-default-rtdb.firebaseio.com",
-//   projectId: "finportal-37d63",
-//   storageBucket: "finportal-37d63.appspot.com",
-//   messagingSenderId: "688216393507",
-//   appId: "1:688216393507:web:02c884cc0601f328c02e96",
-// };
+const firebaseConfig = {
+  apiKey: "AIzaSyDbF8gyfgZYANqyWAB72QRireh8ma7GE3A",
+  authDomain: "finportal-37d63.firebaseapp.com",
+  databaseURL: "https://finportal-37d63-default-rtdb.firebaseio.com",
+  projectId: "finportal-37d63",
+  storageBucket: "finportal-37d63.appspot.com",
+  messagingSenderId: "688216393507",
+  appId: "1:688216393507:web:02c884cc0601f328c02e96",
+};
 
 // Dhanish Firebase API
-const firebaseConfig = {
-  apiKey: "AIzaSyD6MQy2d-bOJKE0QruR_IQahNue5A0LrDI",
-  authDomain: "finportal-4d01f.firebaseapp.com",
-  databaseURL: "https://finportal-4d01f-default-rtdb.firebaseio.com/",
-  projectId: "finportal-4d01f",
-  storageBucket: "finportal-4d01f.appspot.com",
-  messagingSenderId: "691533092881",
-  appId: "1:691533092881:web:499ab1cd636543223979b0",
-};
+// const firebaseConfig = {
+//   apiKey: "AIzaSyD6MQy2d-bOJKE0QruR_IQahNue5A0LrDI",
+//   authDomain: "finportal-4d01f.firebaseapp.com",
+//   databaseURL: "https://finportal-4d01f-default-rtdb.firebaseio.com/",
+//   projectId: "finportal-4d01f",
+//   storageBucket: "finportal-4d01f.appspot.com",
+//   messagingSenderId: "691533092881",
+//   appId: "1:691533092881:web:499ab1cd636543223979b0",
+// };
 
 // Aaryan Firebase API
 // const firebaseConfig = {
