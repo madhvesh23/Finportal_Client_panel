@@ -661,16 +661,19 @@ function ItrForm(props) {
                 can call us at: +91 80006 85556
               </p>
               <div className="price">{props.price}</div>
-              <div className="button">
+              
+            </div>
+            <div>
+            <div className="button">
                 <button>Complete Order Now</button>
               </div>
-            </div>
-
             <div className="button">
               <button onClick={putData} type="submit">
                 Submit
               </button>
             </div>
+            </div>
+            
 
             <div className="preview button">
               <Preview heading={props.heading} />

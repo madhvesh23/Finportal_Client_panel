@@ -52,11 +52,14 @@
   border-radius: 5px;
   font-size: 1rem;
 
+
 }
 .itrform input[type="file"] {
   margin-top: 10px;
 }
-
+.button div{
+  text-align: center;
+}
 .itrform button {
   background-color: #ffcc00; /* Yellow Button Background */
   color: #333; /* Dark Grey Text */
@@ -65,6 +68,8 @@
   border-radius: 5px;
   cursor: pointer;
   margin-top: 20px;
+  width: 90%;
+  text-align: center;
 }
 
 .itrform button:hover {

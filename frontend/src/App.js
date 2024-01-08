@@ -12,6 +12,8 @@ import { useNavigate } from "react-router-dom";
 import { useFirebase,auth } from "./components/context/firebaseContext";
 import { Navigate } from "react-router-dom";
 import Itrform from "./components/context/service3/ItrForm"
+import './index.css';
+
 
 function App() {
   const firebase = useFirebase()
